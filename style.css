@@ -97,7 +97,7 @@ tr:hover {
     max-width: 100%;
     position: relative;
     z-index: 2;
-    object-fit: contain; /* Ajuste para a imagem não ser cortada */
+    object-fit: contain;
 }
 
 .card p {
