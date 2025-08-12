@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f9ff;
+    color: #003366;
+    text-align: center;
+}
+
+header {
+    background-color: #005bbb;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tabela, .pagamento, .contato {
+    margin: 30px auto;
+    width: 90%;
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #005bbb;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #e6f2ff;
+}
+
+.tabela td i {
+    color: #005bbb;
+    margin-right: 5px;
+}
+
+.pagamentos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.card {
+    background: #f0f8ff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 120px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 70px;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    z-index: 2;
+    object-fit: contain; /* Ajuste para a imagem não ser cortada */
+}
+
+.card p {
+    margin: 10px 0 0;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+
+.card::before {
+    content: "\f219";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: #005bbb;
+    opacity: 0.1;
+    z-index: 1;
+}
+
+.contato {
+    text-align: center;
+}
+
+.instagram-link {
+    display: inline-block;
+    background-color: #005bbb;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+.instagram-link:hover {
+    background-color: #003d7c;
+}

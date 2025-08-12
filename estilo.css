@@ -1,0 +1,80 @@
+                body {
+                    background: linear-gradient(135deg, #003366, #001a33);
+                    font-family: 'Orbitron', Arial, sans-serif;
+                    color: white;
+                    text-align: center;
+                    padding: 20px;
+                }
+
+                h1 {
+                    color: #00aaff;
+                    font-size: 2.5em;
+                    margin-bottom: 5px;
+                }
+
+                h2 {
+                    font-size: 1.2em;
+                    color: #cce6ff;
+                    margin-bottom: 30px;
+                }
+
+                .price-table {
+                    max-width: 600px;
+                    margin: auto;
+                    border-collapse:collapse;
+                    width: 100%;
+                    box-shadow: Opx Opx 15px rdga(0,170,255,0.4)
+                    border-radius: 10px;
+                    overflow:hidden;
+
+                }
+
+                .price-table th, .price-table td {
+                    border: 1px solid #00aaff;
+                    padding: 12px;
+                }
+                 
+                .price-table th {
+                    background-color: #004d80;
+                    color: #e6f7ff;
+                    font-size: 1.2em;
+                }
+
+                .price-table tr:nth-child(even) {
+                    background-color:rgba(0, 170, 255, 0.05);
+                }
+
+                .diamond {
+                    color: #66ffff;
+                    font-weight: bold;
+                }
+
+                .payments {
+                    margin-top: 30px;
+                }
+                 
+                .payment-icon {
+                    display: inline-block;
+                    margin: 10px;
+                    padding:10px 15px;
+                    background-color: #004d80;
+                    border-radius: 10px;
+                    border: 1px solid #00aaff;
+                    color: white;
+                    font-weight: bold;
+                    width: 120px;
+                    transition: 0.3s;
+    
+                }
+
+                .payment-icon img {
+                    width: 50px;
+                    display: block;
+                    margin: 0 auto 5px;
+                }
+
+                .payment-icon:haver {
+                    background-color: #006bb3;
+                    transform: scale(1.05);
+
+                }
